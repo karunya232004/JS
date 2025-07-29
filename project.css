@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(white,blueviolet);
+    background-attachment: fixed;
+    
+}
+
+.container{
+    /* border: 2px solid black; */
+    margin: 100px 500px 200px 550px;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    height: 30px;
+    width: 50px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+button:hover{
+background-color: rgb(192, 194, 196);
+}
+@media only screen  and (max-width: 375px) and (min-width: 320px) {
+    .container{
+    
+        margin: 0px;
+        padding: 250px 0px 10px 0px;
+        text-align: center;
+    }
+    button{
+        height: 60px;
+        width: 65px;
+        margin: 2px 2px ;
+        border-radius: 10px;
+        
+    } 
+    .result{
+        height: 30px;
+        /* width: 100%; */
+        padding: 10px 20px 5px 15px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: antiquewhite;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .container{
+        margin: 0px;
+        padding: 190px 0px 10px 0px;
+        text-align: center;
+    }
+    button{
+        height: 70px;
+        width: 78px;
+        margin: 4px 2px;
+        border-radius: 15px;
+    } 
+    .result{
+        height: 40px;
+        /* width: 100%; */
+        padding: 10px 40px 0px 50px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: antiquewhite;
+    }
+}
+@media only screen and (min-width: 425px) {
+    .container{
+    
+        margin: 0px;
+        padding: 150px 0px 10px 0px;
+        text-align: center;
+    }
+    button{
+        height: 80px;
+        width: 83px;
+        padding: 0px;
+        margin: 5px 3px ;
+        border-radius: 10px;
+        
+    } 
+    .result{
+        height: 38px;
+        /* width: 100%; */
+        padding: 10px 40px 0px 70px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: antiquewhite;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .container{
+    
+        margin: 0px;
+        padding: 140px 0px 10px 0px;
+        text-align: center;
+    }
+    button{
+        height: 80px;
+        width: 165px;
+        padding: 0px;
+        margin: 5px 3px ;
+        border-radius: 5px;
+    } 
+    .result{
+        height: 40px;
+        /* width: 100%; */
+        padding: 10px 40px 0px 400px;
+        margin-bottom: 18px;
+        text-align: right;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: antiquewhite;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .container{
+    
+        margin: 0px;
+        padding: 250px 0px 10px 0px;
+        text-align: center;
+    }
+    button{
+        height: 50px;
+        width: 230px;
+        padding: 0px;
+        margin: 5px 3px ;
+        border-radius: 5px;
+    }
+    .result{
+        height: 40px;
+        padding: 10px 40px 0px 660px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: antiquewhite;
+    } 
+}
+@media only screen and (min-width: 1440px) {
+    .container{
+    
+        margin: 0px;
+        padding: 100px 0px 10px 0px;
+        text-align: center;
+    }
+    button{
+        height: 0px;
+        width: 100px;
+        padding: 0px;
+        margin: 5px 3px ;
+        border-radius: 5px;
+        font-size: 25px;
+    } 
+ 
+}
+@media only screen and (min-width: 1071px) {
+    .container{
+        margin: 0px;
+        padding: 180px 0px 10px 0px;
+        text-align: center;
+    }
+    button{
+        height: 80px;
+        width: 310px;
+        padding: 0px;
+        margin: 5px 3px ;
+        border-radius: 5px;
+    } 
+    .result{
+        height: 50px;
+        padding: 10px 40px 0px 980px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: antiquewhite;
+    }
+}
